@@ -1,0 +1,12 @@
+apiVersion: v2
+name: my-nginx
+description: A Helm chart for my nginx
+
+type: application
+version: 0.1.0
+appVersion: "13.1.4"
+
+dependencies:
+  - name: nginx
+    version: 13.1.4
+    repository: https://charts.bitnami.com/bitnami

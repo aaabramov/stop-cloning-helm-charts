@@ -1,0 +1,4 @@
+nginx: # Name must be the same as in the Chart.yaml
+  service:
+    ports:
+      http: 8080
